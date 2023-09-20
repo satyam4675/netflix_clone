@@ -286,7 +286,8 @@ input[type="radio"] {
         height: 50px;
     }
     .language-drop-down {
-        transform: translate(30px, 7px);
+        transform: translate(10px, 0);
+        font-size: 30px;
     }
     .signin-button {
         width: 150px;
@@ -330,19 +331,100 @@ input[type="radio"] {
         height: 100px;
         font-size: 45px;
     }
-    .text-col, .img-col {
+    .img-col img {
         flex-basis: 100%;
+        width: 900px;
+        margin-left: 150px;
+    }
+    .text-col {
+        width: 100%;
     }
     .features h2 {
-        font-size: 30px;
+        font-size: 80px;
+        margin-left: 100px;
+        text-align: center;
+        width: 1200px;
     }
     .features p {
-        font-size: 15px;
+        width: 1300px;
+        font-size: 50px;
+        text-align: center;
+        padding: 50px, 50px;
     }
     .row:nth-child(2), .row:nth-child(4) {
         flex-direction: column-reverse;
     }
     .features .row {
-        
+        padding: 10px 0;
+    }
+    .two {
+        width: 1465px;
+    }
+    .faq h2 {
+        font-size: 50px;
+        width: 1300px;
+    }
+    .accordion {
+        font-size: 50px;
+        width: 1300px;
+        margin-left: 280px;
+    }
+    .accordion .content {
+        font-size: 40px;
+    }
+    .accordion h3 {
+        font-size: 40px;
+    }
+    label::after {
+        font-size: 50px;
+    }
+    .small {
+        font-size: 40px;
+        width: 1200px;
+    }
+    .faq .email {
+        margin-left: 300px;
+    }
+    .faq .get_started {
+        margin-left: 445px;
+        margin-top: -40px;
+        margin-bottom: 60px;
+    }
+    .footer {
+        width: 1350px;
+    }
+    .footer h2 {
+        font-size: 50px;
+    }
+    .footer .col a {
+        display: flex;
+        font-size: 40px;
+    }
+    .footer .row {
+        width: 1200px;
+    }
+    .footer #second {
+        margin-left: 650px;
+        margin-top: -52px;
+    }
+    .footer #fourth {
+        margin-left: 650px;
+        margin-bottom: -10px;
+    }
+    .footer #third {
+        margin-top: -180px;
+    }
+    .footer #first {
+        margin-top: -200px;
+    }
+    .footer .dropdown_constiner {
+        width: 250px;
+        height: 70px;
+    }
+    .footer .language-drop-down {
+        font-size: 30px;
+    }
+    .copyright {
+        font-size: 50px;
     }
 }
